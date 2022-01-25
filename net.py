@@ -1,7 +1,6 @@
 import math, random
 
 class net:
-  
 	def __init__(self, *layer_depth):
 		self.web = []
 		for x in range(len(layer_depth)):  # loop for level
